@@ -25,10 +25,12 @@ export default function CV() {
           her experiences.
           <br />
           <br />
-          <span className='underline'>Download the CV PDF here</span>
-          <br />
-          <br />
-          <span className='underline'>Download the Resume PDF here</span>
+          <Link
+            href='https://buler-forrest.se/CV-EForrest2024.pdf'
+            target='_blank'
+          >
+            <span className='underline'>Download the CV PDF here</span>
+          </Link>
         </div>
         <div className='justify-center items-center self-center flex max-w-full flex-col mt-6 mb-8 px-16 max-md:px-5'>
           <TagsList
