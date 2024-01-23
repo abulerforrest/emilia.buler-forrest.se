@@ -6,8 +6,8 @@ type ImageAf1Proj1Props = {
 const ImageAf1Proj1 = ({ title, extended }: ImageAf1Proj1Props) => {
   return (
     <svg
-      width='inherit'
-      height='inherit'
+      width='100%'
+      height='100%'
       viewBox='0 0 1440 924'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

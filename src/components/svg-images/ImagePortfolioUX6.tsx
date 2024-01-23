@@ -6,8 +6,8 @@ type ImagePortfolioUX6Props = {
 const ImagePortfolioUX6 = ({ title, extended }: ImagePortfolioUX6Props) => {
   return (
     <svg
-      width='inherit'
-      height='inherit'
+      width='100%'
+      height='100%'
       viewBox='0 0 416 416'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

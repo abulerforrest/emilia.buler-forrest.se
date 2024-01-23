@@ -6,8 +6,8 @@ type ImageWellOrganised2Props = {
 const ImageWellOrganised2 = ({ title, extended }: ImageWellOrganised2Props) => {
   return (
     <svg
-      width='inherit'
-      height='inherit'
+      width='100%'
+      height='100%'
       viewBox='0 0 1312 700'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
