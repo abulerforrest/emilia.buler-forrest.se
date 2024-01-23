@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <span className='items-center bg-white flex flex-col pb-12 mt-16'>
-      <div className='lg:h-[20em] xl:h-[30em] aspect-[2.77] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
+      <div className='animate-slide-up lg:h-[20em] xl:h-[30em] aspect-[2.77] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
         <ImageContactHeader title='Contact header image!' />
       </div>
-      <div className='font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10'>
+      <div className='animate-slide-down animate-delay-100 font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10'>
         Let’s get in touch
       </div>
       <div className='text-black text-center text-lg leading-7 self-center max-w-screen-md mt-6 max-md:max-w-full'>

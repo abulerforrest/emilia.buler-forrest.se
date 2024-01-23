@@ -55,7 +55,9 @@ export default function RootLayout({
         <link rel='manifest' href='/site.webmanifest' />
       </head>
       <body className={`${roboto.className} ${didot.variable}`}>
-        <Header />
+        <div className='z-999 relative'>
+          <Header />
+        </div>
         <Wrapper>{children}</Wrapper>
         <Footer />
       </body>

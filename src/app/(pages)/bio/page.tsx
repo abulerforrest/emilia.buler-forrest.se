@@ -6,11 +6,11 @@ import ImageEmiliasSpace from "@/components/svg-images/ImageEmiliasSpace";
  */
 export default function Biography() {
   return (
-    <span className='items-center bg-white flex flex-col pb-12'>
-      <div className='aspect-[1.21] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
+    <span className='items-center bg-white flex flex-col pb-12 mt-16'>
+      <div className='animate-slide-up  aspect-[1.11] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
         <ImageEmiliasSpace title={`Emilia's digital space!`} />
       </div>
-      <div className='font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-lg:text-5xl max-md:mt-10'>
+      <div className='animate-slide-down animate-delay-100 font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-lg:text-5xl max-md:mt-10'>
         Biography
       </div>
       <div className='text-black text-center text-lg leading-7 self-center max-w-screen-md mt-6 max-md:max-w-full'>

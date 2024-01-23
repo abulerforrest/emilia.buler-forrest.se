@@ -46,7 +46,7 @@ export default function Footer() {
                 <div className='gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0'>
                   <div className='flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0'>
                     <span className='items-stretch flex flex-col pb-2 max-md:mt-10'>
-                      <div className='text-black text-base font-semibold leading-6 whitespace-nowrap'>
+                      <div className='select-none text-black text-base font-semibold leading-6 whitespace-nowrap'>
                         Sections
                       </div>
                       <div className='text-black text-sm leading-5 whitespace-nowrap mt-6'>
@@ -81,7 +81,7 @@ export default function Footer() {
                   </div>
                   <div className='flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0'>
                     <span className='items-stretch flex flex-col pb-2 max-md:mt-10'>
-                      <div className='text-black text-base font-semibold leading-6 whitespace-nowrap'>
+                      <div className='select-none text-black text-base font-semibold leading-6 whitespace-nowrap'>
                         Projects
                       </div>
                       <Link prefetch href='/project-preloved'>
@@ -129,10 +129,10 @@ export default function Footer() {
 
                   <div className='flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0'>
                     <span className='items-stretch flex grow flex-col max-md:mt-10'>
-                      <div className='text-black text-base font-semibold leading-6 whitespace-nowrap'>
+                      <div className='select-none text-black text-base font-semibold leading-6 whitespace-nowrap'>
                         Follow me
                       </div>
-                      <span className='items-stretch flex justify-between  mt-4 gap-3 py-2'>
+                      <span className='select-none items-stretch flex justify-between  mt-4 gap-3 py-2'>
                         <RiLinkedinBoxFill size={24} />
                         <Link
                           target='_blank'
@@ -144,7 +144,7 @@ export default function Footer() {
                           </div>
                         </Link>
                       </span>
-                      <span className='items-stretch flex justify-between gap-3 py-2'>
+                      <span className='select-none items-stretch flex justify-between gap-3 py-2'>
                         <RiFacebookBoxFill size={24} />
                         <Link
                           target='_blank'
@@ -156,7 +156,7 @@ export default function Footer() {
                           </div>
                         </Link>
                       </span>
-                      <span className='items-stretch flex justify-between gap-3 py-2'>
+                      <span className='select-none items-stretch flex justify-between gap-3 py-2'>
                         <RiInstagramLine size={24} />
                         <Link
                           target='_blank'

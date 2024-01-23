@@ -9,12 +9,12 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
  */
 export default function CV() {
   return (
-    <div className='flex flex-col items-stretch'>
+    <div className='flex flex-col items-stretch mt-16'>
       <span className='items-center bg-white flex w-full flex-col pb-12 px-5 max-md:max-w-full'>
-        <div className='lg:h-[20em] xl:h-[30em] aspect-[2.77] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
+        <div className='-z-1 relative animate-slide-down-3 animate-delay-500 lg:h-[20em] xl:h-[30em] aspect-[2.77] object-contain object-center w-full self-stretch overflow-hidden max-md:max-w-full'>
           <ImageCVHeader title='CV header image' />
         </div>
-        <div className='font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10'>
+        <div className='animate-slide-down font-heading text-black text-center text-7xl leading-[86.4px] tracking-[7.2px] self-center mt-20 max-md:max-w-full max-md:text-4xl max-md:mt-10'>
           CV / Resume
         </div>
         <div className='text-black text-center text-lg leading-7 self-center max-w-screen-md mt-6 max-md:max-w-full'>
