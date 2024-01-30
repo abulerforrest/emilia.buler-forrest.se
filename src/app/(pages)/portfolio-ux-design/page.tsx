@@ -32,7 +32,7 @@ export default function PortfolioUXDesign() {
     <>
       <div className='flex flex-col items-stretch -mt-20 md:mt-0'>
         <span className='items-stretch bg-white flex w-full flex-col py-12 max-md:max-w-full max-md:px-5'>
-          <div className='animate-slide-down font-heading self-center text-black text-center text-7xl leading-[98px] tracking-[3.6px] max-w-screen-md mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-[53px] max-md:mt-10'>
+          <div className='animate-slide-down animate-delay-100 font-heading self-center text-black text-center text-7xl leading-[98px] tracking-[3.6px] max-w-screen-md mt-16 max-md:max-w-full max-md:text-4xl max-md:leading-[53px] max-md:mt-10'>
             <span className='md:text-7xl text-5xl leading-[86.4000015258789px] tracking-[7.2px]'>
               Portfolio
             </span>{" "}
@@ -57,9 +57,10 @@ export default function PortfolioUXDesign() {
                       className='cursor-pointer'
                       onClick={(event) => {
                         event.preventDefault();
-                        router.push("#hilma-convey-group", {
-                          scroll: false,
-                        });
+                        // --- Temporarily Deactivated
+                        // router.push("#hilma-convey-group", {
+                        //   scroll: false,
+                        // });
                         scrollToPos(hilmaConveyRef);
                       }}
                     >
@@ -82,9 +83,10 @@ export default function PortfolioUXDesign() {
                       className='cursor-pointer'
                       onClick={(event) => {
                         event.preventDefault();
-                        router.push("#well-organised-blog", {
-                          scroll: false,
-                        });
+                        // --- Temporarily Deactivated
+                        // router.push("#well-organised-blog", {
+                        //   scroll: false,
+                        // });
                         scrollToPos(projectWellOrganisedRef);
                       }}
                     >
@@ -102,9 +104,10 @@ export default function PortfolioUXDesign() {
                       className='cursor-pointer'
                       onClick={(event) => {
                         event.preventDefault();
-                        router.push("#stockholm-lokaltrafik-sl", {
-                          scroll: false,
-                        });
+                        // --- Temporarily Deactivated
+                        // router.push("#stockholm-lokaltrafik-sl", {
+                        //   scroll: false,
+                        // });
                         scrollToPos(projectSlRef);
                       }}
                     >
@@ -129,9 +132,10 @@ export default function PortfolioUXDesign() {
                       className='cursor-pointer'
                       onClick={(event) => {
                         event.preventDefault();
-                        router.push("#h&m-preloved", {
-                          scroll: false,
-                        });
+                        // --- Temporarily Deactivated
+                        // router.push("#h&m-preloved", {
+                        //   scroll: false,
+                        // });
                         scrollToPos(projectPrelovedRef);
                       }}
                     >

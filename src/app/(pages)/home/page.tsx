@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <section>
       <span className='items-center bg-white flex w-full flex-col pb-12 max-md:max-w-full'>
-        <ImagePortfolioHeader title='Pen, Apple, Box!' />
+        <ImagePortfolioHeader title='Pen, Apple, Package!' />
         <div className='animate-slide-down-3 animate-delay-500 font-heading text-black text-center text-5xl lg:text-6xl xl:text-7xl tracking-[3.6px] self-center max-w-screen-md mt-20 max-md:max-w-full max-md:text-4xl max-md:leading-[53px] max-md:mt-10'>
           <span className='tracking-[7.2px]'>UX</span>{" "}
           <span className='font-didot text-[2.6rem] md:text-[3.6rem] lg:text-[4rem] xl:text-[5rem] leading-[68.4000015258789px] md:leading-[78.4000015258789px] lg:leading-[98.4000015258789px]'>

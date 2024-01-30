@@ -19,7 +19,7 @@ const ImagePortfolioHeader = ({
       <span className='animate-slide-up-2 animate-delay-[0.35s]'>
         <ImageApple title='Apple' />
       </span>
-      <span className='mt-10 max-h-60 animate-slide-up-3 animate-delay-[0.45s]'>
+      <span className='mt-10 max-h-60 animate-slide-up animate-delay-[0.45s]'>
         <ImagePortfolioUX7 title='Package!' />
       </span>
     </div>
